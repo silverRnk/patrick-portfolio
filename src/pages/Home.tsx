@@ -5,13 +5,14 @@ import HireMe from "../components/HireMe";
 import { skillButtons } from "../data";
 import SkillChip from "../components/SkillChip";
 import { Link } from "react-router-dom";
+import LatestProjects from "../components/LatesProject/LatestProjects";
 
 const Home = () => {
    return (
       <>
          <section
             id="img-summary-container"
-            className="flex flex-col items-center mt-10"
+            className="min-w-[350px] flex flex-col items-center mt-10"
          >
             <div
                id="img-wrapper"
@@ -46,13 +47,17 @@ const Home = () => {
                   />
                ))}
                <Link to={"/skills"}>
-               <span className="h-[55px] underline text-xl capitalize flex items-end text-[#fff] hover:text-[#0000ff]">see more</span>
-            </Link>
+                  <span className="h-[55px] underline text-xl capitalize flex items-end text-[#fff] hover:text-[#0000ff]">
+                     see more
+                  </span>
+               </Link>
             </div>
          </section>
-         <section className="justify-self-center sm:max-w-[800px] px-3 sm:px-10">
-            <h3 className="text-2xl text-white mb-[1em]">Latest Project</h3>
-
+         <section className="justify-self-center mb-10 px-3 sm:px-10">
+            <h3 className="text-xl sm:text-2xl text-white mb-[1em]">
+               Latest Project
+            </h3>
+            <LatestProjects />
          </section>
       </>
    );
