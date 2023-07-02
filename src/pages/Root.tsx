@@ -7,7 +7,7 @@ const Root = () => {
    return (
       <div className="min-h-[100vh] w-full light-source">
          <Navbar />
-         <main>
+         <main className="grid">
             <Outlet/>
          </main>
       </div>

@@ -60,6 +60,11 @@
   box-shadow: 0 5px 15px black;
 }
 
+.active-nav-link{
+  color: white;
+  text-shadow: 0 4px 4px black;
+}
+
 @media screen and (min-width: 600px) {
    .light-source {
       background-color: #135040;

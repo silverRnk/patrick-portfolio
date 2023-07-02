@@ -22,13 +22,13 @@ const Navbar = () => {
          <ul className="flex items-center justify-center gap-8 sm:gap-[3rem] pb-6 text-xl sm:text-2xl font-bold tracking-widest">
             {navLinks.map((navLink) => (
                <li>
-                  <NavLink to={navLink.path}>
+                  <NavLink to={navLink.path} className={({isActive, isPending}) => isActive? "active-nav-link" : ""}>
                      {navLink.name}
                   </NavLink>
                </li>
             ))}
          </ul>
-         <div className="min-h-[3px] w-[300px] sm:w-[600px] bg-[#000] rounded-full"></div>
+         <div className="min-h-[3px] w-[300px] sm:w-[600px] bg-[#000] rounded-full shadow shadow-gray"></div>
       </nav>
    );
 };

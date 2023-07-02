@@ -20,7 +20,10 @@ export default {
         gradientimg: 'radial-gradient(68.85% 96.18% at 50.00% 3.79%, #ECC785 0%, rgba(0, 0, 0, 0.00) 100%)'
       },
       boxShadow:{
-        
+
+      },
+      boxShadowColor:{
+        gray: '#1b1b1b'
       }
     },
   },
