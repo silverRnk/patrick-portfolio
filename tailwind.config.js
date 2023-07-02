@@ -10,7 +10,17 @@ export default {
         'background1': '#F1EEE5',
       },
       backgroundColor:{
-        'background1':'#F1EEE5',
+        'background1':'#135040',
+        'gradient1': 'radial-gradient(68.85% 96.18% at 50.00% 3.79%, #ECC785 0%, rgba(0, 0, 0, 0.00) 100%), #135040',
+      },
+      letterSpacing:{
+        '1': '0.2em'
+      },
+      backgroundImage:{
+        gradientimg: 'radial-gradient(68.85% 96.18% at 50.00% 3.79%, #ECC785 0%, rgba(0, 0, 0, 0.00) 100%)'
+      },
+      boxShadow:{
+        
       }
     },
   },

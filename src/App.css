@@ -1,4 +1,4 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,4 +39,44 @@
 
 .read-the-docs {
   color: #888;
+} */
+
+.light-source {
+   background-color: #135040;
+   background-image: radial-gradient(
+         60.85% 500px at 50% 3.79%,
+         #ecc785 0%,
+         rgba(0, 0, 0, 0) 100%
+      ),
+      url("public/Shapes.png");
+}
+
+.img-light-effect {
+  background-image: radial-gradient(
+     100.85% 200px at 50% 3.79%,
+     #ecc68571 0%,
+     rgba(0, 0, 0, 0) 100%
+  );
+  box-shadow: 0 5px 15px black;
+}
+
+@media screen and (min-width: 600px) {
+   .light-source {
+      background-color: #135040;
+      background-image: radial-gradient(
+            40.85% 700px at 50% 3.79%,
+            #ecc785 0%,
+            rgba(0, 0, 0, 0) 100%
+         ),
+         url("public/Shapes.png");
+   }
+
+   .img-light-effect {
+      background-image: radial-gradient(
+         100.85% 300px at 50% 3.79%,
+         #ecc68571 0%,
+         rgba(0, 0, 0, 0) 100%
+      );
+      box-shadow: 0 5px 20px black;
+   }
 }
