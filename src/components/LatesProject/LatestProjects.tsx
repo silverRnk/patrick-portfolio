@@ -23,17 +23,19 @@ import "swiper/css/pagination";
 // Component's css
 import "./component.css";
 
+import { slideItems } from "../../data";
+
 const LatestProjects = () => {
    return (
       <Swiper
          effect="coverflow"
          grabCursor={true}
          centeredSlides={true}
-         slidesPerView={"auto"}
+         slidesPerView={'auto'}
          coverflowEffect={{
             rotate: 0,
             stretch: 0,
-            depth: 150,
+            depth: 200,
             modifier: 1,
             slideShadows: true,
          }}
@@ -42,23 +44,18 @@ const LatestProjects = () => {
             Pagination,
             Navigation,
          ]}
+         
          pagination={true}
          className="swiper"
-         onSlideChange={() =>
-            console.log("slide change")
-         }
-         onSwiper={(swiper) =>
-            console.log(swiper)
-         }
       >
+         {slideItems.map((slideItem) => (
+            <SwiperSlide className="swiper-slide flex flex-col justify-center items-center gap-3">
+               <img src={slideItem.imgURL}  className="w-[200px] sm:w-[300px] h-[200px] object-cover shadow-md shadow-gray"/>
+               <h5 className="slide-title-text-shadow text-white text-xl">{slideItem.title}</h5>
+            </SwiperSlide>
+         ))}
          <SwiperSlide className="swiper-slide">
-            Slide 1
-         </SwiperSlide>
-         <SwiperSlide className="swiper-slide">
-            Slide 2
-         </SwiperSlide>
-         <SwiperSlide className="swiper-slide">
-            Slide 3
+            <img />
          </SwiperSlide>
       </Swiper>
    );
