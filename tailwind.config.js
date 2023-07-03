@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {
+      flex:{
+        2: '2 2 0%',
+        3: '3 2 0%'
+      },
       colors:{
         'background1': '#F1EEE5',
       },

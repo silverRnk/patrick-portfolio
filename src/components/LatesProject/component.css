@@ -20,8 +20,14 @@
    backdrop-filter: blur(10px);
 }
 
+
+.slide-title-text-shadow{
+   text-shadow: 0 4px 4px black;
+}
+
 @media screen and (min-width: 600px) {
    .swiper {
+      max-width: 1500px;
       width: 100%;
    }
 
