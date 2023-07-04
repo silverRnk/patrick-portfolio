@@ -1,9 +1,11 @@
-
-@media screen and (max-width: 600px) {
-    .skill-card-effect:active{
-        box-shadow: inset 0 4px 4px black;
-        transition: all 0.25s ease;
-    }
+.skill-card-texture {
+   background-image:
+      url('public/Snow.png');
 }
 
-
+@media screen and (max-width: 600px) {
+   .skill-card-effect:active {
+      box-shadow: inset 0 4px 4px black;
+      transition: all 0.25s ease;
+   }
+}
