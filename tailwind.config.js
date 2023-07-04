@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      gridTemplateRows:{
+        'custom-2': '2fr 3fr'
+      },
       flex:{
         2: '2 2 0%',
         3: '3 2 0%'
