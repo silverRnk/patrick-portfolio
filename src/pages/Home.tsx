@@ -12,7 +12,7 @@ const Home = () => {
       <>
          <section
             id="img-summary-container"
-            className="min-w-[350px] flex flex-col items-center mt-10"
+            className="justify-self-center max-w-[100vw] min-w-[350px] flex flex-col items-center justify-center mt-10"
          >
             <div
                id="img-wrapper"
@@ -38,7 +38,7 @@ const Home = () => {
 
             <div
                id="chips-container"
-               className="px-3 sm:max-w-[500px] flex flex-row justify-center justify-items-center flex-wrap gap-3 mb-5"
+               className="sm:max-w-[500px] flex flex-row justify-center justify-items-center flex-wrap gap-3 mb-10"
             >
                {skillButtons.map((skill) => (
                   <SkillChip
@@ -53,8 +53,8 @@ const Home = () => {
                </Link>
             </div>
          </section>
-         <section className="justify-self-center mb-10 px-3 sm:px-10">
-            <h3 className="text-xl sm:text-2xl text-white mb-[1em]">
+         <section id="latest-project-section" className="justify-self-center mb-5">
+            <h3 className="px-3 text-xl sm:text-2xl text-white mb-[1em] font-bold">
                Latest Project
             </h3>
             <LatestProjects />

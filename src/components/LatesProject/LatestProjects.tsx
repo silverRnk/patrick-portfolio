@@ -50,7 +50,7 @@ const LatestProjects = () => {
       >
          {slideItems.map((slideItem) => (
             <SwiperSlide className="swiper-slide flex flex-col justify-center items-center gap-3">
-               <img src={slideItem.imgURL}  className="w-[200px] sm:w-[300px] h-[200px] object-cover shadow-md shadow-gray"/>
+               <img src={slideItem.imgURL}  className="w-[200px] sm:w-[250px] md:w-[300px] h-[200px] object-cover shadow-md shadow-gray"/>
                <h5 className="slide-title-text-shadow text-white text-xl">{slideItem.title}</h5>
             </SwiperSlide>
          ))}
