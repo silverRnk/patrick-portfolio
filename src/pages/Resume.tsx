@@ -2,7 +2,9 @@ import React from 'react'
 
 const Resume = () => {
   return (
-    <div>Resume</div>
+    <div className='pt-8'>
+      <img src='public/Resume_Letter.png' />
+    </div>
   )
 }
 

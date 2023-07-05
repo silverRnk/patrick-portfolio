@@ -2,8 +2,6 @@ import {
    createBrowserRouter,
    RouterProvider,
 } from "react-router-dom";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 import Root from "./pages/Root";
 import Home from "./pages/Home";

@@ -1,5 +1,6 @@
 import DashBoardImg from "./assets/DASHBOARD.jpg";
 import LoggerApp from "./assets/Frame26.png";
+import EcommerceImg from './assets/Ecommerce_App.png'
 
 type ProjectType = "Desktop" | "Mobile";
 
@@ -10,6 +11,11 @@ interface SlideItem {
 }
 
 const slideItems: SlideItem[] = [
+   {
+      title: "Ecommerce App",
+      imgURL: EcommerceImg,
+      projectType: "Desktop"
+   },
    {
       title: "School Admin",
       imgURL: DashBoardImg,

@@ -1,5 +1,5 @@
 import React from "react";
-import myImg from "../assets/test_male_img2.jpg";
+import myImg from "../assets/Me.jpg";
 import { faker } from "@faker-js/faker";
 import HireMe from "../components/HireMe";
 import { skillButtons } from "../data";
