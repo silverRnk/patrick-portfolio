@@ -1,4 +1,3 @@
-import { useState } from "react";
 import {
    createBrowserRouter,
    RouterProvider,
@@ -10,6 +9,8 @@ import Root from "./pages/Root";
 import Home from "./pages/Home";
 import Skills from "./pages/Skills";
 import { ErrorPage } from "./pages/ErrorPage";
+import Projects from "./pages/Projects";
+import Resume from "./pages/Resume";
 
 const router = createBrowserRouter([
    {
@@ -19,12 +20,13 @@ const router = createBrowserRouter([
       children: [
          { path: "", element: <Home /> },
          { path: "skills", element: <Skills /> },
+         { path: "projects", element: <Projects/>},
+         { path: "resume", element: <Resume/>}
       ],
    },
 ]);
 
 function App() {
-   const [count, setCount] = useState(0);
 
    return (
       <>

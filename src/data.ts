@@ -31,9 +31,9 @@ interface SkillButton {
 }
 
 const skillButtons: SkillButton[] = [
-   { name: "Javascript", btnColor: "#9A5454" },
-   { name: "Typescript", btnColor: "#9A5454" },
-   { name: "PHP", btnColor: "#B5BC5E" },
+   { name: "Javascript", btnColor: "#8C4F4F" },
+   { name: "Typescript", btnColor: "#8C4F4F" },
+   { name: "PHP", btnColor: "#8C4F4F" },
    { name: "CSS", btnColor: "#8C4F4F" },
    { name: "HTML", btnColor: "#8C4F4F" },
    { name: "Python", btnColor: "#8C4F4F" },
@@ -93,37 +93,50 @@ const skillCards: SkillCard[] = [
    },
    {
     name:"ReactJS",
-    logoURL:"",
+    logoURL:"https://img.icons8.com/officel/40/react.png",
     alt:"react-logo",
     descriptions:[
         "JSX, React Hooks, React Lifecycles",
         "Redux toolkit",
+        "React-Router-DOM"
         
     ]
    },
    {
     name:"PHP",
-    logoURL:"",
+    logoURL:"https://img.icons8.com/officel/40/php-logo.png",
     alt:"php-logo",
-    descriptions:[]
+    descriptions:[
+      "Fundamental PHP",
+      "Laravel framework"
+    ]
    },
    {
     name:"MySQL",
-    logoURL:"",
+    logoURL:"https://img.icons8.com/color/48/mysql-logo.png",
     alt:"mysql-logo",
-    descriptions:[]
+    descriptions:[
+      "MySQL Queries",
+      "Relational Database"
+    ]
    },
    {
     name:"Figma",
-    logoURL:"",
+    logoURL:"https://img.icons8.com/officel/40/figma.png",
     alt:"figma-logo",
-    descriptions:[]
+    descriptions:[
+      "Basic UI design skills"
+    ]
    },
    {
-    name:"Linux OS",
-    logoURL:"",
+    name:"Linux",
+    logoURL:"https://img.icons8.com/color/48/linux--v1.png",
     alt:"linux-os-logo",
-    descriptions:[]
+    descriptions:[
+      "Linux Distro: Ubuntu",
+      "sudo and curl commands",
+      "systemctl and systemd"
+    ]
    }
 ];
 

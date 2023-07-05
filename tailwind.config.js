@@ -6,8 +6,12 @@ export default {
   ],
   theme: {
     extend: {
+      gridTemplateColumns:{
+        '3-3/2':'2fr 3fr 2fr'
+      }
+      ,
       gridTemplateRows:{
-        'custom-2': '2fr 3fr'
+        'custom-2': '2fr 3fr',
       },
       flex:{
         2: '2 2 0%',
