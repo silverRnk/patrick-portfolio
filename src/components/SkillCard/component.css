@@ -1,6 +1,6 @@
 .skill-card-texture {
    background-image:
-      url('public/Snow.png');
+      url('../Snow.png');
 }
 
 @media screen and (max-width: 600px) {

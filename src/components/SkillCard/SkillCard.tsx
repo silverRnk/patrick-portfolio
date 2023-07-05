@@ -1,4 +1,4 @@
-import React from "react";
+
 
 //SkillCard css
 import "./component.css";

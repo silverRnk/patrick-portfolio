@@ -1,6 +1,4 @@
-import React from "react";
 import myImg from "../assets/Me.jpg";
-import { faker } from "@faker-js/faker";
 import HireMe from "../components/HireMe";
 import { skillButtons } from "../data";
 import SkillChip from "../components/SkillChip";
@@ -26,7 +24,7 @@ const Home = () => {
             </div>
 
             <span className="px-7 sm:w-[600px] mt-10 text-xl/[2rem] sm:text-2xl/[2.5rem] text-center text-[#f5efef]">
-               {faker.lorem.paragraph()}
+               
             </span>
          </section>
 

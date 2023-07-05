@@ -1,4 +1,4 @@
-import React from "react";
+
 
 //Swiper Imports
 //Swiper Effects
@@ -54,9 +54,6 @@ const LatestProjects = () => {
                <h5 className="slide-title-text-shadow text-white text-xl">{slideItem.title}</h5>
             </SwiperSlide>
          ))}
-         <SwiperSlide className="swiper-slide">
-            <img />
-         </SwiperSlide>
       </Swiper>
    );
 };

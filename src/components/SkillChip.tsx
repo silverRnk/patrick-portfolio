@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 const SkillChip = (props:{name:string, color:string}) => {
     const {name, color} = props

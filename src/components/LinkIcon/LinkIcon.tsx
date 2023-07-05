@@ -1,7 +1,7 @@
-import React from 'react'
+
 
 const LinkIcon = (props:{url:string, icon:string}) => {
-    const {url, icon} = props
+    const {icon} = props
   return (
     <div>
         <img src={icon} alt="" />

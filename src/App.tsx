@@ -22,7 +22,10 @@ const router = createBrowserRouter([
          { path: "resume", element: <Resume/>}
       ],
    },
-]);
+],{
+   basename:'/patrick-portfolio'
+}
+);
 
 function App() {
 

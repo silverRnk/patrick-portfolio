@@ -1,4 +1,4 @@
-import React from "react";
+
 
 //Footers css
 import "./component.css";
@@ -6,6 +6,9 @@ import LinkinIcon from "../SVGIcons/LinkinIcon";
 import EmailIcon from "../LinkIcon/EmailIcon";
 import FacebookIcon from "../SVGIcons/FacebookIcon";
 import { Link } from "react-router-dom";
+
+
+
 
 const Footer = () => {
    return (

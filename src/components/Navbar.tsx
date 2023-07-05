@@ -1,4 +1,4 @@
-import React from "react";
+
 import { NavLink } from "react-router-dom";
 
 const navLinks = [
@@ -22,7 +22,7 @@ const Navbar = () => {
          <ul className="flex items-center justify-center gap-8 sm:gap-[3rem] pb-6 text-xl sm:text-2xl font-bold tracking-widest">
             {navLinks.map((navLink) => (
                <li>
-                  <NavLink to={navLink.path} className={({isActive, isPending}) => isActive? "active-nav-link" : ""}>
+                  <NavLink to={navLink.path} className={({isActive}) => isActive? "active-nav-link" : ""}>
                      {navLink.name}
                   </NavLink>
                </li>
