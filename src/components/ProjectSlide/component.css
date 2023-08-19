@@ -1,0 +1,66 @@
+.swiper-project {
+    max-width: 100vw;
+    width: 100%;
+    height: 350px;
+    min-width: 350px;
+ }
+
+ .swiper-item-project {
+    background-color: white;
+    border-radius: 0.75rem;
+ }
+
+.swiper-item-texture {
+    background-image:
+       url('../Snow.png');
+ }
+
+ @media only screen and (max-width:720px) {
+    .slide-item-container-project {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-rows: 1fr 5fr;
+        padding: 15px;
+
+     }
+ }
+
+ @media only screen and (min-width:720px){
+    .swiper-project {
+        max-width: 100vw;
+        width: 600px;
+        height: 450px;
+        min-width: 350px;
+     }
+
+     .slide-item-container-project {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 20px;
+
+     }
+     
+ }
+
+
+ @media only screen and (min-width:960px){
+    .swiper-project {
+        max-width: 100vw;
+        width: 800px;
+        height: 500px;
+        min-width: 350px;
+     }
+
+     .slide-item-container-project {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 20px;
+
+     }
+     
+ }
