@@ -1,4 +1,3 @@
-import React from "react";
 import "./link.css";
 import ForkIcon from "../LinkIcon/ForkIcon";
 const RepoLink = ({url}:{url:string}) => {

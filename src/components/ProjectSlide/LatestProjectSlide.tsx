@@ -1,4 +1,4 @@
-import React from "react";
+
 //Swiper Imports
 //Swiper Effects
 import { Pagination, Navigation } from "swiper";

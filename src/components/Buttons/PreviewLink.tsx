@@ -1,4 +1,3 @@
-import React from "react";
 import "./link.css";
 import PreviewIcon from "../LinkIcon/PreviewIcon";
 const PreviewLink = ({url}:{url:string}) => {
