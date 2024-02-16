@@ -185,9 +185,10 @@ const otherProjects: SlideItemProps[] = [
    {title: 'Add Product App',
     previewURL: 'http://patrickdiegobautista.rf.gd/product',
     imgURL: '',
-    repoURL: '',
+    repoURL: 'https://github.com/silverRnk/php-add-product-app',
     descriptions: [
-      'PHP & MYSQL CRUD application'
+      'PHP & MYSQL CRUD application',
+      'Uses Ajax & Jquery',
     ]},
     {
       title: 'Anki Kanji Card Generator',
