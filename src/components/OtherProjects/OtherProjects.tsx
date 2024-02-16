@@ -10,7 +10,7 @@ interface IProjectCardProps {
   repoURL?:string
 };
 
-const items = ['foo', 'baz', 'foobaz']
+// const items = ['foo', 'baz', 'foobaz']
 
 export const ProjectCard: FC<IProjectCardProps> = (prop) => {
     const {name, descriptions, previewURL, repoURL} = prop
