@@ -3,6 +3,8 @@ import LoggerApp from "./assets/Frame26.png";
 import EcommerceImg from './assets/Ecommerce_App.png'
 import { SlideItemProps } from "./components/ProjectSlide/SlideItem";
 
+
+
 type ProjectType = "Desktop" | "Mobile";
 
 interface SlideItem {
@@ -179,4 +181,23 @@ const featureProjectSlide: SlideItemProps[] = [
    }
 ]
 
-export { slideItems, skillButtons, skillCards, featureProjectSlide };
+const otherProjects: SlideItemProps[] = [
+   {title: 'Add Product App',
+    previewURL: 'http://patrickdiegobautista.rf.gd/product',
+    imgURL: '',
+    repoURL: '',
+    descriptions: [
+      'PHP & MYSQL CRUD application'
+    ]},
+    {
+      title: 'Anki Kanji Card Generator',
+      previewURL: 'https://drive.google.com/file/d/1SGvtveeyzgZm6nppTUuGOj6xJyL0YY7Z/view?usp=sharing',
+      repoURL: 'https://github.com/silverRnk/kanji_flashcard_gen',
+      imgURL: '',
+      descriptions: [
+         'Windows application for creating a Kanji Card'
+      ]
+    }
+]
+
+export { slideItems, skillButtons, skillCards, featureProjectSlide, otherProjects };
