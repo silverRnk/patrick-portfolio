@@ -152,7 +152,7 @@ const skillCards: SkillCard[] = [
 const featureProjectSlide: SlideItemProps[] = [
    {
       title: 'CHCA Admin Dashboard',
-      previewURL: 'https://cosmic-blini-bb1914.netlify.app/',
+      previewURL: 'https://cdr-hills-next-app.vercel.app/admin',
       repoURL: 'https://github.com/silverRnk/20230501_root_repo',
       imgURL: DashBoardImg,
       descriptions: [
